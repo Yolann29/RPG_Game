@@ -3,7 +3,7 @@ package ViewModels;
 public class Game {
 
     // Screen Settings
-    public final static int originalTileSize = 32; // 32x32 tile (pixels)
+    public final static int originalTileSize = 16; // 32x32 tile (pixels)
     public final static int scale = 2;
     public final static int tileSize = originalTileSize * scale; // 64x64 tile (pixels)
 

@@ -20,6 +20,7 @@ public class Animation {
     public Animation(String sprite, int frameCount, long frameDuration) {
 
         try {
+            System.out.println(sprite);
             this.sprite = ImageIO.read(Objects.requireNonNull(this.getClass().getResourceAsStream(sprite)));
         } catch (IOException e) {
             throw new RuntimeException(e);
